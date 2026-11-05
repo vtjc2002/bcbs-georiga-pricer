@@ -1,0 +1,14 @@
+{
+  "publisher": "PREMERA BLUE CROSS",
+  "plan_names": ["Your Choice NGF - SF", "Your Future HSA Qualified Agg NGF - SF"],
+  "file_description": "Georgia, Anthem Blue Cross and Blue Shield",
+  "expected_file_count": 7,
+  "allowed_hosts": ["premerabc.mrf.bcbs.com"],
+  "publisher_page": "https://www.premera.com/visitor/transparency",
+  "index_url": null,
+  "index_discovery": {
+    "metadata_url": "https://mrf.healthsparq.com/premera-egress.nophi.kyruushsq.com/prd/mrf/PREMERA_I/PREMERA/latest_metadata.json",
+    "base_url": "https://mrf.healthsparq.com/premera-egress.nophi.kyruushsq.com/prd/mrf/PREMERA_I/PREMERA/",
+    "filename_suffix": "MICROSOFT---SUPER-VIP-S---------1000011_index.json.gz"
+  }
+}

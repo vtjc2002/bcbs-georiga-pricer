@@ -1,0 +1,7 @@
+ijson==3.4.0
+pyarrow==22.0.0
+duckdb==1.4.1
+requests==2.32.5
+azure-storage-blob==12.27.0
+azure-identity==1.25.1
+pytest==8.4.2

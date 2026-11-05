@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.local/
+node_modules/
+dist/
+*.tfstate
+.env
+*.json.gz
+*.parquet
+etl/wheelhouse/
+*.tsbuildinfo

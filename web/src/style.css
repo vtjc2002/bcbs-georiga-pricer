@@ -1,0 +1,42 @@
+:root {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color-scheme: light dark}
+* {box-sizing: border-box}
+body {margin: 0; background: var(--bgColor-default, #fff); color: var(--fgColor-default, #1f2328)}
+.topbar {display: flex; align-items: center; gap: 12px; padding: 18px 32px; background: var(--bgColor-inset, #f6f8fa); border-bottom: 1px solid var(--borderColor-default, #d1d9e0); font-size: 15px}
+.topbar > :last-child {margin-left: auto}
+.brand-mark {display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--fgColor-default, #1f2328); color: var(--bgColor-default, #fff); font-weight: 700}
+main {max-width: 1180px; margin: auto; padding: 44px 28px}
+.eyebrow {color: var(--fgColor-muted, #59636e); font-size: 11px; font-weight: 600; letter-spacing: 1.5px; margin: 0 0 12px}
+h1 {font-size: clamp(26px, 4vw, 36px) !important; letter-spacing: -0.8px; margin: 0 !important}
+h2 {font-size: 16px !important; margin: 0 !important}
+.subtitle {color: var(--fgColor-muted, #59636e); margin: 12px 0 24px; line-height: 1.6}
+.notice {margin-bottom: 24px}
+.panel {border: 1px solid var(--borderColor-default, #d1d9e0); border-radius: 6px; margin: 20px 0; overflow: hidden}
+.panel-heading {display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 15px 20px; border-bottom: 1px solid var(--borderColor-default, #d1d9e0); background: var(--bgColor-muted, #f6f8fa)}
+.panel-heading > span {color: var(--fgColor-muted, #59636e); font-size: 12px}
+.endpoint {display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 16px; padding: 20px}
+.freshness {padding: 0 20px 18px; display: flex; gap: 12px 24px; flex-wrap: wrap; font-size: 12px; color: var(--fgColor-muted, #59636e)}
+form {padding: 20px}
+.search-grid {display: grid; grid-template-columns: 2fr 1fr 1.2fr; gap: 20px}
+.search-actions {margin-top: 20px; display: flex; gap: 16px; align-items: center}
+.search-actions > span {font-size: 12px; color: var(--fgColor-muted, #59636e)}
+.loading {display: flex; gap: 12px; align-items: center; padding: 20px}
+.empty {padding: 36px 24px; text-align: center; color: var(--fgColor-muted, #59636e)}
+.table-scroll {overflow-x: auto}
+table {border-collapse: collapse; width: 100%; text-align: left; font-size: 13px}
+th {background: var(--bgColor-muted, #f6f8fa); color: var(--fgColor-muted, #59636e); font-size: 12px; font-weight: 600}
+th, td {padding: 15px 20px; border-bottom: 1px solid var(--borderColor-muted, #d8dee4); vertical-align: top}
+small {display: block; color: var(--fgColor-muted, #59636e); margin-top: 5px; font-size: 11px; line-height: 1.5}
+.price {white-space: nowrap; font-size: 16px; font-variant-numeric: tabular-nums}
+.pagination {display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; gap: 12px}
+.pagination span {font-size: 12px; color: var(--fgColor-muted, #59636e)}
+.code-choices {padding: 20px; display: flex; gap: 8px; flex-wrap: wrap}
+section[aria-label="Provider procedure codes"] > div:nth-child(2) {margin: 20px}
+footer {font-size: 12px; line-height: 1.8; color: var(--fgColor-muted, #59636e); padding: 14px 0}
+summary {cursor: pointer; margin-top: 14px}
+@media (max-width: 720px) {
+  main {padding: 28px 16px}
+  .topbar {padding: 14px 16px}
+  .search-grid, .endpoint {grid-template-columns: 1fr}
+  .search-actions {align-items: flex-start; flex-direction: column}
+  .pagination {flex-wrap: wrap}
+}
